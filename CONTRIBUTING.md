@@ -1,6 +1,6 @@
-# Contributing to the Mental Health in Tech Industry Survey Dashboard project.
+# Contributing to the Mental Health in Tech Industry Survey reporting app.
 
-This outlines how to propose a change to the Mental Health in Tech Industry Survey Dashboard project. 
+This outlines how to propose a change to the Mental Health in Tech Industry Survey reporting app. 
 
 ### Fixing typos
 

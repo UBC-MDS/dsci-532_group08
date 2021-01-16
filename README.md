@@ -5,7 +5,7 @@ A data science project for DSCI 532 (Data Visualization II); a course in the Mas
 
 ## About
 
-Alex is a policy maker working for the government of the United States. He wants to understand if mental health has become a major problem among employees from tech companies. He wants to be able to explore the Mental Health in Tech Survey dataset visually to compare the general situations of mental health issues for people in tech, both geographically and demographically, and find out the most relevant factors that can justify his intention to improve current labor contract policies.
+Alex is a policy maker working for the government of the United States. He wants to understand if mental health has become a major problem among employees from tech companies. He wants to be able to explore the [Mental Health in Tech Survey dataset](https://www.kaggle.com/osmi/mental-health-in-tech-survey) visually to compare the general situations of mental health issues for people in tech, both geographically and demographically, and find out the most relevant factors that can justify his intention to improve current labor contract policies.
 
 ## App description
 

@@ -7,6 +7,8 @@
 The mental health conditions of people in the tech workplace have increasingly been a concern in recent years, while many employees suffer from mental health issues. Therefore, it is of great importance to identify the main factors that associate with mental health conditions, and help the government and organizations understand why supporting mental health is essential. In hope of enhancing mental health support in the tech field, we propose to develop a data visualization app based on recent survey data to show the mental health conditions in the tech workplace in the US, address the linked factors, and the companies’ support for their employees’ mental health. With our app, the users can also navigate to a specific state of interest within the US to view and compare the frequencies of mental health conditions in the tech workplace.
 
 
+
+
 ### Section 2: Description of the data
 
 The dataset used for our app was originally from a survey conducted by the Open Sourcing Mental Illness team in 2014, which was posted publicly on Kaggle. With more than 1,200 responses collected, only the responses from the United States were selected for the visualization. 

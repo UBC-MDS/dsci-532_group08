@@ -34,6 +34,8 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-27 11:44:55,22,male,United States,TX,No,Yes,Yes,Often,Small,No,Yes,No,Yes,No,No,Yes,Very difficult,Maybe,No,No,No,No,Maybe,Don't know,No,
 2014-08-27 11:45:32,33,male,United States,UT,No,No,No,,Medium,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Don't know,No,
 2014-08-27 11:45:51,32,male,United States,TN,No,No,No,Never,Small,Yes,Yes,Don't know,Not sure,No,No,Don't know,Don't know,Maybe,No,Some of them,Yes,No,No,Don't know,No,
+2014-08-27 11:46:49,27,Other,United States,NY,No,Yes,Yes,Rarely,Small,No,Yes,Yes,Yes,No,No,Yes,Don't know,Maybe,No,No,No,No,No,Don't know,No,
+2014-08-27 11:46:55,32,Other,United States,TN,No,Yes,No,,Small,Yes,Yes,Don't know,No,No,No,Don't know,Somewhat easy,No,No,Yes,Yes,No,No,Yes,No,
 2014-08-27 11:47:10,24,male,United States,NY,No,Yes,Yes,Sometimes,Small,Yes,Yes,Don't know,No,No,No,Don't know,Don't know,No,Maybe,Some of them,Yes,Yes,Yes,No,No,
 2014-08-27 11:47:33,26,male,United States,TN,No,No,No,,Small,No,No,No,No,No,No,Yes,Somewhat easy,No,No,Some of them,Yes,Maybe,Yes,Don't know,No,
 2014-08-27 11:48:57,44,male,United States,IA,No,Yes,Yes,Sometimes,Large,No,No,Yes,No,No,Don't know,Don't know,Don't know,Yes,Maybe,Some of them,No,No,Maybe,Don't know,Yes,
@@ -41,11 +43,13 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-27 11:52:07,36,male,United States,TX,No,No,No,Sometimes,Medium,Yes,Yes,Yes,No,Don't know,Yes,Don't know,Don't know,Maybe,No,Some of them,Some of them,Maybe,Yes,Yes,No,
 2014-08-27 11:52:41,31,female,United States,NM,No,No,No,,Small,Yes,No,Don't know,No,Don't know,Don't know,Don't know,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No,
 2014-08-27 11:52:44,34,male,United States,NY,Yes,No,No,Rarely,Small,Yes,Yes,No,No,No,No,Don't know,Don't know,Maybe,No,Some of them,No,No,No,Don't know,No,
+2014-08-27 11:54:27,23,Other,United States,MA,No,No,No,Rarely,Large,No,Yes,Yes,Yes,No,No,Yes,Somewhat difficult,Maybe,No,Yes,Yes,No,No,No,No,
 2014-08-27 11:56:29,33,male,United States,CA,No,No,No,Never,Large,No,Yes,Don't know,Not sure,Yes,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,Yes,No,
 2014-08-27 11:57:33,25,male,United States,WA,No,No,No,,Large,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,Don't know,No,No,Yes,Yes,Maybe,Yes,Yes,No,
 2014-08-27 11:57:54,31,male,United States,WA,Yes,Yes,No,Sometimes,Small,Yes,Yes,No,No,No,No,Yes,Somewhat difficult,No,No,Yes,Yes,Maybe,Maybe,Yes,No,
 2014-08-27 11:59:31,32,male,United States,UT,No,Yes,Yes,Sometimes,Small,Yes,Yes,No,No,No,No,Don't know,Somewhat difficult,Yes,No,Some of them,No,No,Yes,No,No,
 2014-08-27 12:01:50,38,male,United States,NY,No,Yes,No,Sometimes,Medium,Yes,Yes,Yes,Yes,No,Yes,Don't know,Don't know,No,No,Yes,Some of them,Maybe,Maybe,Yes,No,
+2014-08-27 12:03:30,27,Other,United States,NY,Yes,No,Yes,Often,Small,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Very easy,Maybe,Maybe,Some of them,Yes,No,Maybe,Yes,No,
 2014-08-27 12:05:13,33,male,United States,CA,No,Yes,No,Never,Large,No,Yes,No,No,No,No,Don't know,Don't know,Yes,No,No,No,No,Maybe,No,No,
 2014-08-27 12:05:37,31,male,United States,TX,No,No,No,,Small,No,Yes,Don't know,Not sure,No,No,Don't know,Don't know,No,No,Some of them,Yes,Maybe,Maybe,No,No,
 2014-08-27 12:10:43,34,female,United States,OR,No,Yes,Yes,Rarely,Medium,Yes,Yes,Yes,Not sure,No,Don't know,Don't know,Don't know,Yes,Maybe,Some of them,Some of them,No,No,Don't know,No,
@@ -56,6 +60,7 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-27 12:14:13,34,male,United States,OH,No,No,No,,Small,No,Yes,Don't know,No,No,No,Don't know,Somewhat easy,Maybe,No,Some of them,No,No,Maybe,Don't know,No,
 2014-08-27 12:15:30,29,male,United States,MN,No,No,No,Never,Small,No,Yes,Don't know,No,No,Don't know,Don't know,Don't know,No,No,Yes,Yes,Maybe,Maybe,No,No,
 2014-08-27 12:16:21,24,male,United States,MO,No,Yes,No,Rarely,Small,No,Yes,Don't know,Not sure,No,Don't know,Don't know,Somewhat easy,Maybe,Maybe,Some of them,No,No,Maybe,Don't know,No,
+2014-08-27 12:18:02,33,Other,United States,AZ,No,No,Yes,Sometimes,Small,No,Yes,No,Yes,No,No,Don't know,Somewhat easy,Maybe,No,Some of them,No,No,Maybe,No,No,
 2014-08-27 12:18:04,30,male,United States,IN,No,No,Yes,Often,Small,No,Yes,No,Yes,No,No,Yes,Somewhat easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No,
 2014-08-27 12:18:38,44,female,United States,MA,No,No,No,Never,Medium,No,Yes,Yes,Not sure,Don't know,Don't know,Don't know,Don't know,Maybe,Maybe,No,Some of them,No,No,Don't know,No,
 2014-08-27 12:19:52,25,male,United States,NY,No,Yes,No,,Small,No,Yes,Don't know,No,Don't know,Don't know,Don't know,Very easy,No,No,Some of them,Yes,No,No,Don't know,No,
@@ -126,6 +131,7 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-27 13:07:42,32,female,United States,MA,No,No,Yes,Sometimes,Medium,No,No,Yes,Yes,Don't know,Don't know,Yes,Very easy,No,No,Yes,Yes,No,Yes,Yes,No,
 2014-08-27 13:07:46,27,female,United States,MI,Yes,Yes,Yes,Sometimes,Small,Yes,Yes,No,No,Don't know,Don't know,Don't know,Very difficult,No,No,Some of them,No,No,No,Don't know,No,Many of these questions were difficult to answer as a self-employed person; I did my best with the available options.
 2014-08-27 13:09:37,29,female,United States,NY,No,No,Yes,Never,Medium,No,No,Yes,No,No,Don't know,Don't know,Somewhat difficult,Maybe,No,Some of them,No,No,No,Don't know,No,
+2014-08-27 13:09:39,41,Other,United States,VA,No,No,No,,Small,No,Yes,Yes,Not sure,No,No,Don't know,Very easy,Yes,No,No,Some of them,No,No,Don't know,No,
 2014-08-27 13:12:31,34,female,United States,WA,No,No,No,,Small,No,Yes,Yes,No,No,No,Don't know,Somewhat easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No,One of my coworkers has mental health issues and she's open about them (eg: my enjoyment of this project may be due to my recent change in meds). I believe the response has been generally supportive. We're a very small tight-knit company.
 2014-08-27 13:14:53,28,male,United States,PA,No,No,No,Rarely,Small,No,Yes,Don't know,No,No,No,Don't know,Don't know,No,No,Some of them,Some of them,No,Maybe,Don't know,No,
 2014-08-27 13:15:19,28,male,United States,MI,No,No,Yes,Sometimes,Large,No,Yes,No,Yes,No,No,Yes,Very difficult,Yes,No,No,Some of them,No,No,No,No,
@@ -180,6 +186,7 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-27 14:20:43,26,male,United States,MA,No,No,No,Rarely,Medium,No,Yes,Yes,Not sure,No,Don't know,Don't know,Don't know,No,No,Some of them,Yes,No,Maybe,Don't know,No,
 2014-08-27 14:21:37,28,female,United States,WA,No,Yes,Yes,Often,Medium,Yes,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Yes,No,Some of them,Yes,No,No,Yes,No,
 2014-08-27 14:21:42,37,female,United States,CA,No,No,Yes,Rarely,Large,No,Yes,Yes,Yes,Don't know,Yes,Don't know,Somewhat easy,No,No,Some of them,Yes,No,No,Yes,No,
+2014-08-27 14:22:36,30,Other,United States,IL,No,Yes,Yes,Rarely,Small,No,Yes,Yes,Not sure,No,No,Don't know,Somewhat easy,Maybe,No,Some of them,Yes,No,No,Don't know,No,
 2014-08-27 14:22:43,26,male,United States,IN,No,No,No,,Small,No,Yes,No,No,No,No,Don't know,Don't know,No,No,Some of them,Some of them,No,No,Don't know,Yes,
 2014-08-27 14:22:43,25,male,United States,OR,No,No,No,,Small,Yes,Yes,Don't know,Not sure,No,Don't know,Don't know,Don't know,No,No,Some of them,Yes,No,No,Don't know,No,
 2014-08-27 14:23:51,27,male,United States,TN,No,No,No,Sometimes,Medium,No,Yes,Yes,Not sure,Yes,Yes,Don't know,Don't know,Maybe,No,Some of them,Yes,No,Maybe,Don't know,No,The thought of going through my employer directly to get help is fucking scary.Getting help is the hardest part of getting help.
@@ -214,6 +221,7 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-27 14:45:12,23,male,United States,AL,No,Yes,Yes,Sometimes,Medium,No,No,Don't know,No,No,No,Don't know,Don't know,No,No,Yes,Yes,Maybe,Yes,Don't know,No,YOU MAY WANT TO THROW OUT MY ENTRY.I answered all of these questions with the assumption that Attention Deficit Disorder is considered a mental illness and with ADD in mind.
 2014-08-27 14:45:45,54,male,United States,CA,No,Yes,Yes,Never,Large,No,Yes,Don't know,No,Yes,Yes,Don't know,Don't know,No,No,No,Yes,No,No,Don't know,No,
 2014-08-27 14:47:10,22,male,United States,CA,No,No,No,Sometimes,Large,No,Yes,Don't know,No,Don't know,Don't know,Don't know,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No,
+2014-08-27 14:47:28,25,Other,United States,CA,No,Yes,Yes,Sometimes,Large,No,Yes,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,No,Yes,No,
 2014-08-27 14:49:30,27,male,United States,MA,No,No,Yes,Sometimes,Large,No,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,No,No,No,Yes,Yes,No,
 2014-08-27 14:52:44,26,male,United States,CA,No,Yes,Yes,Often,Large,No,Yes,Yes,Not sure,Don't know,Yes,Don't know,Don't know,Maybe,No,Some of them,No,No,No,Don't know,No,
 2014-08-27 14:53:11,31,male,United States,CA,No,No,Yes,Sometimes,Medium,No,No,No,Yes,No,Don't know,Yes,Don't know,No,No,Some of them,No,No,No,No,No,
@@ -221,6 +229,7 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-27 14:54:56,34,male,United States,WA,No,Yes,Yes,Sometimes,Large,No,Yes,Yes,Yes,Don't know,Yes,Yes,Don't know,Maybe,Maybe,No,No,No,No,Don't know,No,
 2014-08-27 14:57:46,34,male,United States,WA,No,No,Yes,Sometimes,Medium,Yes,Yes,No,No,No,No,Don't know,Somewhat easy,Yes,Yes,Some of them,Some of them,No,Maybe,Don't know,No,
 2014-08-27 14:58:01,29,male,United States,IN,Yes,No,No,,Small,Yes,Yes,No,Yes,No,No,Yes,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No,
+2014-08-27 14:59:59,33,Other,United States,WA,No,No,No,,Small,No,Yes,No,No,No,No,Don't know,Somewhat difficult,Maybe,No,Some of them,Some of them,No,No,Don't know,No,
 2014-08-27 15:04:41,26,male,United States,OK,Yes,Yes,Yes,Rarely,Medium,Yes,No,No,No,No,Don't know,No,Don't know,Maybe,No,Some of them,Yes,No,Yes,No,No,
 2014-08-27 15:05:00,32,male,United States,MI,No,Yes,Yes,Rarely,Large,No,No,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,Some of them,Yes,No,Yes,Yes,No,
 2014-08-27 15:09:58,28,male,United States,GA,No,Yes,Yes,Sometimes,Large,No,Yes,Don't know,Not sure,No,Don't know,Don't know,Somewhat difficult,Maybe,Maybe,No,No,No,No,No,No,
@@ -234,10 +243,13 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-27 15:22:43,45,male,United States,MA,No,No,Yes,Never,Small,Yes,Yes,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Maybe,No,No,Some of them,No,Maybe,Don't know,No,
 2014-08-27 15:22:45,27,female,United States,WA,No,No,Yes,Rarely,Large,No,Yes,Yes,Yes,No,No,Yes,Don't know,Yes,Maybe,No,No,No,No,No,No,
 2014-08-27 15:22:50,25,female,United States,WA,No,Yes,Yes,Sometimes,Small,Yes,Yes,Don't know,No,No,No,Don't know,Don't know,Maybe,No,Some of them,Yes,No,No,Yes,No,
+2014-08-27 15:22:52,34,Other,United States,NY,No,Yes,Yes,Rarely,Large,No,No,Yes,Yes,Yes,Yes,Yes,Very difficult,Maybe,Maybe,Some of them,Some of them,No,No,Yes,No,I work for a university.
 2014-08-27 15:23:06,26,female,United States,CA,No,Yes,Yes,Never,Large,No,Yes,Yes,Yes,No,Yes,Yes,Don't know,Maybe,No,No,No,No,No,Don't know,No,
 2014-08-27 15:23:19,27,male,United States,CA,No,No,Yes,Rarely,Large,No,Yes,Yes,No,Yes,Yes,Yes,Don't know,No,No,Some of them,Yes,No,Maybe,Yes,No,
+2014-08-27 15:23:30,31,Other,United States,IN,No,Yes,Yes,Sometimes,Small,Yes,Yes,Yes,No,No,No,Don't know,Don't know,No,No,Yes,Yes,No,No,Don't know,No,
 2014-08-27 15:23:51,26,male,United States,NV,No,No,Yes,Sometimes,Small,No,Yes,Don't know,No,No,No,Don't know,Don't know,Yes,Yes,Some of them,No,No,No,No,No,
 2014-08-27 15:23:51,27,female,United States,CO,No,Yes,Yes,Rarely,Large,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Don't know,Maybe,Maybe,No,Yes,No,No,Don't know,No,
+2014-08-27 15:24:22,29,Other,United States,CA,Yes,Yes,Yes,Sometimes,Small,Yes,Yes,Yes,Yes,No,No,Don't know,Very difficult,Yes,No,Some of them,No,No,Maybe,No,No,
 2014-08-27 15:24:27,25,female,United States,CA,No,No,Yes,Sometimes,Small,No,Yes,Don't know,Not sure,No,No,Don't know,Somewhat difficult,Yes,No,Some of them,No,No,Maybe,Don't know,No,
 2014-08-27 15:24:47,40,female,United States,PA,No,Yes,Yes,Rarely,Large,No,No,Yes,No,Don't know,Don't know,Don't know,Somewhat easy,Maybe,Maybe,No,No,No,No,Don't know,No,
 2014-08-27 15:24:49,31,male,United States,SC,No,No,No,Never,Large,No,Yes,Don't know,No,No,Don't know,Don't know,Somewhat easy,Yes,No,Some of them,No,No,No,Don't know,No,
@@ -279,11 +291,14 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-27 15:47:33,26,female,United States,CA,No,No,Yes,Sometimes,Medium,No,Yes,Yes,Yes,No,No,Don't know,Somewhat difficult,Yes,Maybe,Some of them,Some of them,No,No,No,Yes,
 2014-08-27 15:50:26,24,male,United States,AZ,No,No,Yes,Rarely,Small,No,Yes,Yes,Yes,Yes,No,Don't know,Don't know,No,No,Some of them,Yes,No,No,Don't know,No,
 2014-08-27 15:53:39,43,male,United States,MA,Yes,Yes,Yes,Often,Small,Yes,Yes,Yes,Yes,No,No,Yes,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No,So much depends upon the organization. 
+2014-08-27 15:53:59,40,Other,United States,VA,No,Yes,No,Never,Large,No,Yes,Yes,Yes,Yes,Don't know,Yes,Don't know,Yes,Maybe,No,Some of them,No,Maybe,Yes,No,
 2014-08-27 15:54:45,30,male,United States,WA,No,Yes,Yes,Often,Large,No,Yes,Yes,Yes,Yes,No,Don't know,Very difficult,Yes,No,Some of them,No,No,No,No,Yes,
 2014-08-27 15:55:07,34,male,United States,CA,No,No,Yes,Sometimes,Small,No,Yes,Don't know,Not sure,No,No,Don't know,Don't know,Yes,Yes,Some of them,No,No,No,Don't know,No,Now at starutp.  Previously worked at big tech company which was actually quite good at supporting mental health issues.  Still wouldn't share with bosses/other employees though as there remains a strong negative stigma.
 2014-08-27 15:55:07,27,male,United States,OR,No,Yes,Yes,Sometimes,Medium,No,Yes,Don't know,Not sure,No,Don't know,Don't know,Don't know,Yes,No,No,No,No,Yes,Don't know,No,
 2014-08-27 15:55:08,36,male,United States,MI,No,No,No,Sometimes,Large,No,Yes,Don't know,No,No,No,Yes,Somewhat easy,No,No,Yes,Yes,Maybe,Yes,Don't know,No,
 2014-08-27 15:59:47,37,male,United States,OR,No,No,No,,Medium,No,Yes,Yes,No,No,No,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No,
+2014-08-27 16:01:39,33,Other,United States,CA,No,No,No,Never,Medium,No,Yes,Yes,Not sure,Yes,Yes,Don't know,Very easy,Maybe,No,Some of them,Yes,No,No,Yes,No,I currently have the best managers I've ever worked with. I don't have any issues but one of my coworkers recently did and it was handled extremely well. 
+2014-08-27 16:01:52,28,Other,United States,UT,No,No,No,Sometimes,Small,Yes,Yes,No,Yes,No,No,Don't know,Somewhat easy,Yes,Maybe,Some of them,No,No,No,Don't know,No,
 2014-08-27 16:02:16,26,female,United States,CA,No,Yes,No,Never,Small,No,Yes,Don't know,Not sure,No,No,Don't know,Somewhat difficult,Maybe,Maybe,Some of them,No,No,Maybe,No,No,
 2014-08-27 16:03:20,27,male,United States,TX,No,Yes,Yes,Sometimes,Small,Yes,Yes,Don't know,No,Yes,Don't know,Don't know,Somewhat easy,Yes,No,Some of them,Yes,No,Maybe,Yes,No,
 2014-08-27 16:06:46,57,male,United States,CA,No,Yes,Yes,Rarely,Large,No,Yes,Yes,Yes,No,No,Don't know,Don't know,Maybe,No,Some of them,Yes,No,Maybe,No,No,
@@ -333,6 +348,7 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-27 18:12:55,28,female,United States,CA,No,Yes,Yes,Often,Medium,Yes,Yes,Yes,No,No,Don't know,Don't know,Don't know,Yes,Yes,Some of them,Some of them,No,No,No,Yes,
 2014-08-27 18:18:18,36,male,United States,CA,No,Yes,Yes,Sometimes,Large,No,Yes,Yes,No,No,Yes,Don't know,Somewhat difficult,Yes,No,Some of them,Yes,No,Yes,No,No,
 2014-08-27 18:22:05,21,male,United States,CA,No,Yes,No,,Large,No,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,Some of them,Yes,No,Maybe,Yes,No,
+2014-08-27 18:39:43,25,Other,United States,CA,No,Yes,No,,Medium,No,No,Don't know,Not sure,No,No,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,Don't know,No,I'm not aware of anyone with mental health issues at work it's definitely not something that's discussed publicly. There's also a lot of other personal info I don't know about my coworkers so it may just be that we tend not to talk about personal issues.
 2014-08-27 19:13:21,33,male,United States,NY,No,No,No,,Small,No,Yes,Don't know,No,Don't know,Don't know,Don't know,Don't know,Yes,No,Some of them,No,No,Maybe,Don't know,No,I'm afraid I haven't seen mental health issues arise at work yet. They are very accommodating with maternity leave but I don't know how that translates to anything else.
 2014-08-27 19:16:15,24,male,United States,CA,No,No,No,,Large,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Yes,No,
 2014-08-27 19:17:07,65,male,United States,FL,Yes,No,No,,Small,Yes,No,No,No,No,No,Don't know,Very easy,Maybe,No,Some of them,No,No,No,Yes,No,
@@ -342,7 +358,9 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-27 19:38:44,39,male,United States,OR,No,No,Yes,Sometimes,Medium,No,Yes,Yes,Not sure,Yes,Don't know,Yes,Don't know,Yes,Maybe,Yes,Yes,No,Maybe,Don't know,No,
 2014-08-27 19:41:28,32,male,United States,CA,No,No,Yes,Sometimes,Large,No,Yes,Yes,No,No,Yes,Don't know,Somewhat easy,No,No,Yes,Some of them,Maybe,Yes,Don't know,No,
 2014-08-27 19:45:36,31,male,United States,CA,No,Yes,No,Sometimes,Large,No,Yes,Yes,Not sure,Don't know,Don't know,Don't know,Somewhat easy,Maybe,No,No,Some of them,No,Yes,No,No,Mental health issue I have dealt with: acute depression
+2014-08-27 19:59:12,38,Other,United States,PA,No,Yes,Yes,Sometimes,Medium,No,Yes,Don't know,No,No,No,Don't know,Don't know,Maybe,Maybe,Some of them,No,No,No,Don't know,No,
 2014-08-27 20:13:06,23,male,United States,CA,No,Yes,Yes,Rarely,Small,No,Yes,No,Yes,No,No,Don't know,Don't know,Maybe,No,Some of them,Yes,No,No,Yes,No,
+2014-08-27 20:17:52,42,Other,United States,CA,No,No,Yes,Often,Large,No,Yes,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,Maybe,Yes,Yes,Maybe,Maybe,Don't know,No,
 2014-08-27 20:33:33,27,female,United States,NY,No,No,No,Sometimes,Medium,No,Yes,Don't know,Not sure,Don't know,Yes,Don't know,Don't know,No,No,Some of them,Yes,No,No,Yes,No,
 2014-08-27 20:48:54,26,female,United States,MA,No,Yes,Yes,Sometimes,Small,No,Yes,Yes,Yes,No,No,Yes,Somewhat difficult,No,No,Yes,Yes,No,No,No,Yes,
 2014-08-27 20:52:31,37,male,United States,PA,No,Yes,No,Never,Small,No,Yes,Don't know,No,No,Don't know,Don't know,Somewhat easy,No,No,Yes,Yes,No,No,Yes,No,
@@ -367,6 +385,7 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-27 22:32:36,29,male,United States,CA,No,Yes,No,Often,Medium,No,Yes,Yes,Yes,Yes,Yes,Don't know,Don't know,No,No,Some of them,Yes,No,No,Don't know,No,
 2014-08-27 22:35:40,35,male,United States,TN,Yes,Yes,No,,Small,Yes,Yes,No,No,Yes,Yes,Don't know,Very easy,No,No,Yes,Yes,No,Maybe,Yes,No,The supposed divide between mental and physical health needs to done away with and probably will be as our knowledge of the brain increases. That said we are often employed for our ability to provide value. If any issue prevents is from providing value that creates a very real challenge for the employer who is responsible to shareholders and other team members who are providing value. There are no easy answers here.
 2014-08-27 22:36:34,33,male,United States,WI,No,Yes,Yes,Sometimes,Medium,No,No,Yes,Not sure,No,No,Yes,Somewhat difficult,Yes,Yes,No,No,No,No,No,No,
+2014-08-27 22:55:13,30,Other,United States,WI,Yes,Yes,Yes,Often,Small,Yes,No,No,Yes,No,Yes,Yes,Somewhat difficult,No,No,Yes,Yes,No,No,Yes,No,Because I'm self-employed and the only person in my organization I would have liked a not applicable option. I don't want my answers to be misleading.
 2014-08-27 22:59:23,27,male,United States,PA,No,No,No,,Large,No,Yes,Yes,Not sure,Don't know,Don't know,Yes,Don't know,Maybe,Maybe,No,No,No,Maybe,No,No,
 2014-08-27 23:09:46,32,male,United States,MI,No,No,No,Sometimes,Medium,No,Yes,No,Yes,No,No,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,No,No,
 2014-08-27 23:10:16,50,male,United States,WY,No,No,No,Sometimes,Small,Yes,Yes,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Maybe,Some of them,Some of them,No,Maybe,Don't know,No,I work for a very small firm that doesn't really have a dedicated H/R person. Also for the question:If you have a mental health condition do you feel that it interferes with your work?...I don't have a diagnosed mental health condition but I suspect I might have some slight depression issues. Definitely have Imposter Syndrome.
@@ -385,6 +404,7 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-28 01:56:43,28,female,United States,CA,No,Yes,Yes,Rarely,Medium,No,Yes,Yes,Yes,Yes,Yes,Don't know,Somewhat difficult,Maybe,No,No,Some of them,No,No,No,No,
 2014-08-28 02:17:42,34,male,United States,CA,Yes,Yes,Yes,Sometimes,Small,No,Yes,No,Yes,No,No,Yes,Somewhat easy,No,No,Some of them,Some of them,No,No,No,No,thanks for what you're doing. FYI these questions dont quite work for entrepreneurs where employer == cofounders / sr mgmt / me
 2014-08-28 02:30:00,28,male,United States,MI,No,Yes,Yes,Sometimes,Small,Yes,Yes,Yes,Not sure,No,Don't know,Don't know,Don't know,Yes,No,Some of them,Some of them,No,No,Don't know,Yes,
+2014-08-28 02:41:47,56,Other,United States,MA,No,Yes,Yes,Rarely,Small,No,Yes,Yes,Yes,No,No,Don't know,Don't know,Yes,Maybe,Some of them,Some of them,No,No,Don't know,No,
 2014-08-28 02:49:34,34,female,United States,CA,No,No,Yes,Sometimes,Medium,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Somewhat easy,Maybe,No,Some of them,Yes,No,No,Yes,No,
 2014-08-28 03:36:10,57,male,United States,CA,No,No,No,Never,Small,No,Yes,Yes,Yes,No,Yes,Yes,Somewhat difficult,Yes,Maybe,No,No,No,Maybe,Don't know,Yes,
 2014-08-28 04:07:34,39,male,United States,FL,No,No,No,Rarely,Large,Yes,No,Don't know,No,Yes,Yes,Don't know,Don't know,No,No,Some of them,Some of them,No,Maybe,Don't know,No,I mostly suffer from social anxiety which keeps me from attending conferences. In my small dev group a big problem is a supervisor who's a workaholic and will never say no when asked to do something so he's doing the job of at least two ppl (poorly) and working crazy hours setting the tone for the test of us that work/life balance isn't important.
@@ -395,6 +415,7 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-28 08:39:49,29,female,United States,OH,No,Yes,Yes,Rarely,Small,No,Yes,Don't know,No,No,No,Don't know,Don't know,Yes,No,No,No,No,No,Don't know,No,
 2014-08-28 08:43:23,45,male,United States,VA,No,No,Yes,Often,Small,Yes,Yes,Yes,Not sure,No,Yes,Don't know,Very easy,No,No,Yes,Yes,No,Maybe,Yes,No,
 2014-08-28 08:43:58,38,male,United States,MN,No,No,Yes,Sometimes,Large,No,No,Yes,Yes,Yes,Yes,Don't know,Don't know,No,No,Some of them,Yes,No,No,Don't know,No,
+2014-08-28 09:02:16,19,Other,United States,MO,No,Yes,Yes,Often,Small,No,No,Don't know,Not sure,No,No,Don't know,Somewhat difficult,Maybe,Maybe,No,No,No,Maybe,No,No,
 2014-08-28 09:40:42,33,female,United States,NC,No,Yes,Yes,Rarely,Large,No,Yes,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Some of them,Yes,No,No,Yes,No,
 2014-08-28 09:53:42,49,male,United States,NY,No,Yes,Yes,Sometimes,Medium,No,Yes,Yes,Not sure,Yes,Yes,Yes,Somewhat easy,Maybe,Maybe,Some of them,Yes,No,No,Yes,No,
 2014-08-28 09:53:57,28,male,United States,NM,No,No,No,,Small,Yes,Yes,Don't know,No,No,No,Don't know,Don't know,Maybe,No,Some of them,No,No,No,Don't know,No,
@@ -413,6 +434,7 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-28 10:05:43,29,male,United States,CO,No,No,No,Never,Small,No,Yes,Yes,Yes,No,Yes,Yes,Don't know,Maybe,No,Some of them,Some of them,No,No,No,No,
 2014-08-28 10:07:37,32,male,United States,PA,Yes,Yes,Yes,Sometimes,Small,Yes,Yes,Yes,Yes,Don't know,Don't know,Don't know,Very difficult,Yes,Maybe,Some of them,No,No,No,No,No,
 2014-08-28 10:08:34,37,male,United States,NY,Yes,No,No,,Small,Yes,Yes,Yes,Yes,Yes,No,Yes,Somewhat easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No,
+2014-08-28 10:11:52,27,Other,United States,MN,No,No,No,,Small,No,Yes,Yes,Not sure,No,Don't know,Don't know,Don't know,No,No,Yes,Yes,No,No,Don't know,No,
 2014-08-28 10:17:19,25,male,United States,MO,No,Yes,Yes,Never,Small,Yes,Yes,Don't know,No,Yes,Don't know,Don't know,Don't know,Yes,No,Some of them,Yes,No,No,No,No,
 2014-08-28 10:18:34,33,male,United States,WY,No,Yes,Yes,Sometimes,Small,No,No,No,Yes,No,No,Don't know,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Don't know,No,
 2014-08-28 10:24:19,29,male,United States,MN,No,No,No,,Large,No,No,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,No,No,Yes,Yes,No,No,No,No,
@@ -435,6 +457,7 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-28 11:50:06,33,female,United States,AZ,Yes,Yes,Yes,Sometimes,Small,No,Yes,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,Yes,Some of them,No,No,No,No,No,
 2014-08-28 11:54:23,36,female,United States,CA,No,No,Yes,Never,Small,Yes,Yes,Yes,No,No,No,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,No,No,
 2014-08-28 12:02:59,33,male,United States,VA,Yes,Yes,Yes,Sometimes,Small,Yes,Yes,No,Yes,No,No,Yes,Very easy,Maybe,Maybe,Yes,Yes,No,No,Yes,No,My current work situation was constructed in part because of my mental health issues. One of the reasons I'm self employed is to give me the most flexibility for coping with my mental health issues.I have been removed from a client project in the past because of a mental health condition. This was while I was an employee for a large consulting company. 
+2014-08-28 12:09:18,43,Other,United States,VA,No,No,No,Sometimes,Small,Yes,Yes,Don't know,No,No,Don't know,Don't know,Don't know,Maybe,No,No,No,No,Maybe,No,No,
 2014-08-28 12:10:42,27,female,United States,WA,No,No,No,,Large,No,Yes,Don't know,Not sure,No,Yes,Don't know,Don't know,Maybe,No,Some of them,Yes,No,No,Don't know,No,
 2014-08-28 12:19:34,33,male,United States,WI,No,No,Yes,Sometimes,Small,Yes,Yes,No,Yes,No,No,Yes,Somewhat difficult,No,No,Yes,Yes,Yes,Yes,Don't know,No,
 2014-08-28 12:22:14,33,male,United States,CA,Yes,No,No,,Small,No,Yes,Don't know,No,No,No,Don't know,Don't know,No,No,Yes,Yes,No,Maybe,Don't know,No,
@@ -452,6 +475,7 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-28 13:39:40,23,male,United States,CA,No,Yes,Yes,Sometimes,Small,No,Yes,No,Yes,No,No,Don't know,Very easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No,
 2014-08-28 13:40:08,39,male,United States,CT,No,No,No,,Small,Yes,Yes,Yes,No,No,No,Don't know,Don't know,Yes,Maybe,No,No,No,No,Don't know,No,
 2014-08-28 13:41:51,30,female,United States,CA,No,No,No,,Large,No,Yes,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Some of them,No,No,No,Yes,No,
+2014-08-28 13:47:57,28,Other,United States,CA,No,No,Yes,Sometimes,Small,No,Yes,No,Yes,No,No,Don't know,Somewhat difficult,Yes,Maybe,Some of them,Some of them,No,No,No,Yes,
 2014-08-28 13:48:30,40,female,United States,WA,No,Yes,Yes,Sometimes,Medium,No,No,Yes,Yes,Yes,Yes,Yes,Don't know,Maybe,No,Some of them,Yes,No,No,Don't know,Yes,I'm comfortable talking about mental health with my current supervisor & my immediate at my current job but this is a first for me!
 2014-08-28 13:54:47,36,female,United States,CA,No,Yes,No,,Small,No,Yes,Don't know,No,No,Don't know,Don't know,Don't know,No,No,No,Some of them,No,Maybe,Yes,No,
 2014-08-28 13:57:01,27,male,United States,IN,No,No,No,,Small,Yes,Yes,Don't know,Not sure,No,Don't know,Don't know,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No,
@@ -464,6 +488,7 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-28 14:53:32,38,male,United States,IL,No,No,No,Never,Large,Yes,Yes,No,Yes,No,No,No,Very difficult,Yes,Yes,No,No,No,No,Don't know,No,
 2014-08-28 14:57:10,34,male,United States,FL,No,No,No,,Large,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,No,No,Some of them,Yes,No,Maybe,Yes,No,
 2014-08-28 15:01:46,43,male,United States,MA,No,No,No,,Large,No,Yes,Yes,No,Yes,Yes,Don't know,Don't know,No,No,Some of them,Yes,No,Maybe,Don't know,No,
+2014-08-28 15:25:39,48,Other,United States,CA,No,Yes,No,Often,Small,No,Yes,Don't know,No,No,No,No,Very difficult,Yes,Yes,No,Some of them,No,No,No,Yes,None of us who are already in marginal groups in tech--the non-young the non-male the non-white--will risk our careers to admit another source of stigma: poor health.
 2014-08-28 15:32:03,20,male,United States,WA,No,No,No,Never,Small,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Yes,No,
 2014-08-28 15:37:04,40,male,United States,MI,Yes,No,No,Sometimes,Small,Yes,Yes,Don't know,Not sure,No,No,Don't know,Somewhat easy,Yes,Maybe,Some of them,No,No,No,Don't know,No,
 2014-08-28 15:43:37,35,male,United States,MI,No,Yes,Yes,Sometimes,Small,No,No,No,Yes,No,No,Yes,Don't know,No,No,Some of them,Yes,No,No,Yes,No,
@@ -500,6 +525,7 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-28 17:20:23,29,male,United States,TX,No,No,No,,Large,No,No,Don't know,Not sure,No,Don't know,Don't know,Don't know,Maybe,No,No,Some of them,No,Maybe,Don't know,No,
 2014-08-28 17:21:01,31,male,United States,CO,No,No,Yes,Never,Small,No,Yes,Yes,Yes,No,Don't know,Yes,Very easy,Maybe,No,No,No,No,No,Don't know,No,
 2014-08-28 17:21:43,29,male,United States,TN,No,Yes,Yes,Sometimes,Small,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,No,Yes,No,
+2014-08-28 17:22:18,30,Other,United States,GA,No,No,No,Never,Small,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,Very easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No,
 2014-08-28 17:22:53,37,male,United States,TN,No,No,No,Never,Medium,Yes,Yes,Yes,No,Yes,Don't know,Don't know,Don't know,Maybe,No,Some of them,Yes,No,No,Yes,Yes,(yes but the situation was unusual and involved a change in leadership at a very high level in the organization as well as an extended leave of absence)
 2014-08-28 17:23:19,36,male,United States,VA,Yes,No,No,Never,Small,No,Yes,Yes,No,No,Don't know,Don't know,Somewhat difficult,No,No,Some of them,Yes,Yes,Yes,Yes,No,
 2014-08-28 17:27:03,35,male,United States,TN,No,Yes,Yes,Sometimes,Small,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Don't know,Maybe,Maybe,Some of them,No,No,Maybe,No,No,
@@ -537,6 +563,7 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-28 21:38:12,31,male,United States,MO,No,Yes,No,Never,Medium,No,Yes,Don't know,No,Don't know,Don't know,Don't know,Very easy,No,No,Some of them,Yes,No,No,Don't know,No,
 2014-08-28 21:41:53,35,female,United States,GA,No,Yes,Yes,Sometimes,Small,No,No,Yes,Not sure,Yes,Yes,Yes,Somewhat difficult,Maybe,Maybe,Some of them,Yes,No,Maybe,Yes,No,* Small family business - YMMV.
 2014-08-28 21:47:33,34,male,United States,TX,No,No,No,Often,Small,No,Yes,Don't know,No,No,Yes,Don't know,Very easy,No,No,Some of them,Yes,No,Maybe,Yes,No,* Small family business - YMMV.
+2014-08-28 22:16:34,43,Other,United States,WA,No,No,Yes,Sometimes,Medium,Yes,Yes,Yes,Yes,No,Yes,Yes,Very difficult,Yes,Maybe,Some of them,No,No,Maybe,No,Yes,* Small family business - YMMV.
 2014-08-28 22:17:15,38,male,United States,WA,No,Yes,Yes,Sometimes,Medium,No,Yes,No,Not sure,No,No,Don't know,Very difficult,Yes,Yes,No,Some of them,No,Maybe,No,No,* Small family business - YMMV.
 2014-08-28 22:18:41,26,male,United States,WA,No,Yes,Yes,Sometimes,Large,No,Yes,Don't know,Not sure,No,Yes,Yes,Very difficult,Maybe,No,Some of them,Some of them,Yes,Yes,No,Yes,* Small family business - YMMV.
 2014-08-28 22:22:39,42,male,United States,TX,No,No,Yes,Often,Small,No,Yes,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Maybe,No,No,No,Maybe,Don't know,No,
@@ -552,12 +579,14 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-29 00:11:17,43,male,United States,WA,No,No,Yes,Rarely,Large,No,Yes,Yes,Yes,Yes,Yes,Don't know,Somewhat easy,No,No,Yes,Yes,Maybe,Yes,Yes,No,I have an exceptional employer. I haven't run into problems with any employer I've had but consider myself lucky.
 2014-08-29 00:41:25,35,male,United States,CA,No,No,Yes,Sometimes,Large,No,Yes,Yes,Yes,Don't know,Yes,Don't know,Very difficult,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No,
 2014-08-29 00:43:37,40,male,United States,WA,No,Yes,Yes,Sometimes,Small,No,Yes,Yes,Yes,Don't know,Don't know,Yes,Very easy,Maybe,No,Some of them,Some of them,No,No,Don't know,No,
+2014-08-29 01:40:36,36,Other,United States,WA,No,Yes,Yes,Rarely,Small,No,Yes,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Maybe,Some of them,No,No,No,Don't know,No,
 2014-08-29 02:10:57,38,male,United States,TN,No,No,No,,Small,No,Yes,No,No,No,No,Yes,Don't know,Maybe,No,Some of them,Yes,Maybe,Maybe,Don't know,No,Some of these should not be required.
 2014-08-29 03:02:16,30,male,United States,WA,No,Yes,No,Never,Large,No,No,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Maybe,No,No,No,No,No,No,
 2014-08-29 03:08:25,26,male,United States,CA,No,No,Yes,Rarely,Large,No,Yes,Yes,Not sure,Don't know,Don't know,Don't know,Don't know,No,No,Some of them,Some of them,No,Maybe,No,No,
 2014-08-29 07:12:43,43,male,United States,MI,No,No,No,Sometimes,Large,Yes,Yes,No,Not sure,No,No,Don't know,Very difficult,Yes,Maybe,No,No,No,Maybe,No,Yes,
 2014-08-29 07:28:17,40,male,United States,IN,No,Yes,Yes,Rarely,Small,No,Yes,Don't know,Not sure,No,Don't know,Don't know,Don't know,No,No,Yes,Yes,No,Maybe,Don't know,No,
 2014-08-29 07:51:42,49,male,United States,GA,No,Yes,No,Never,Large,No,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,Yes,Yes,No,No,Yes,No,Thank you for shining a light on this topic.
+2014-08-29 08:46:31,38,Other,United States,WA,No,No,No,Never,Large,No,Yes,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,Maybe,No,Yes,
 2014-08-29 08:57:42,40,male,United States,ME,No,Yes,Yes,Sometimes,Small,Yes,Yes,No,No,No,No,Don't know,Don't know,Maybe,Maybe,Some of them,Yes,No,Maybe,No,No,
 2014-08-29 09:01:01,28,male,United States,NY,No,Yes,Yes,Often,Medium,No,Yes,Don't know,Not sure,No,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,Yes,Don't know,No,
 2014-08-29 09:10:08,23,male,United States,PA,No,Yes,No,Sometimes,Small,No,Yes,Yes,Not sure,Yes,Yes,Yes,Somewhat easy,No,No,No,No,No,Maybe,Don't know,No,
@@ -578,6 +607,7 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-08-29 09:53:38,38,female,United States,OR,No,Yes,No,Sometimes,Small,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,No,No,Some of them,Yes,No,No,Don't know,No,
 2014-08-29 09:53:50,31,male,United States,SD,No,No,No,Sometimes,Large,No,Yes,Yes,Not sure,Yes,Yes,Yes,Don't know,Yes,Maybe,Some of them,Some of them,No,Maybe,Yes,No,
 2014-08-29 09:54:11,26,female,United States,NY,No,No,No,,Small,No,Yes,Don't know,Not sure,No,No,Don't know,Somewhat easy,No,No,Yes,Yes,No,Maybe,Yes,No,
+2014-08-29 09:58:55,46,Other,United States,CT,No,No,Yes,Often,Large,No,No,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,No,Some of them,Some of them,No,No,No,Yes,
 2014-08-29 09:59:39,30,male,United States,CA,No,Yes,Yes,Sometimes,Small,Yes,Yes,Yes,No,No,No,Don't know,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No,
 2014-08-29 10:06:29,30,female,United States,GA,No,Yes,Yes,Sometimes,Medium,No,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,No,No,Yes,
 2014-08-29 10:12:10,32,male,United States,TN,No,No,No,Never,Small,No,Yes,Yes,Yes,Yes,Yes,Don't know,Somewhat easy,No,No,Yes,Yes,No,Maybe,Yes,No,
@@ -673,10 +703,12 @@ Timestamp,Age,Gender,Country,state,self_employed,family_history,treatment,work_i
 2014-09-14 20:50:05,38,male,United States,NY,No,Yes,No,,Small,No,Yes,Don't know,No,No,No,Don't know,Somewhat difficult,No,No,Some of them,Yes,No,No,Don't know,Yes,
 2014-09-20 13:51:05,26,female,United States,MI,No,Yes,Yes,Rarely,Medium,No,Yes,Yes,No,No,No,Don't know,Don't know,Maybe,Maybe,No,No,No,Maybe,No,No,
 2014-09-23 20:05:05,29,male,United States,OH,No,No,No,Never,Small,No,Yes,No,No,No,Don't know,Don't know,Don't know,No,No,Some of them,Yes,No,Yes,No,Yes,
+2014-09-26 21:25:14,32,Other,United States,NY,No,No,Yes,Sometimes,Small,No,Yes,Yes,Yes,No,No,Yes,Don't know,Maybe,Maybe,Some of them,No,No,No,No,No,
 2014-09-30 09:19:01,38,male,United States,CA,No,Yes,Yes,Sometimes,Large,No,No,Yes,Yes,Yes,Yes,Yes,Don't know,Maybe,No,Some of them,No,No,Maybe,No,Yes,
 2014-10-02 21:25:16,72,female,United States,IN,No,Yes,Yes,Never,Medium,Yes,No,Yes,Not sure,Don't know,Yes,Don't know,Somewhat easy,Maybe,Maybe,Some of them,Yes,No,No,Don't know,Yes,
 2014-10-05 21:16:10,35,female,United States,IN,No,Yes,Yes,Sometimes,Small,Yes,Yes,No,No,No,No,Yes,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Yes,No,
 2014-10-09 11:14:59,28,female,United States,VA,No,No,Yes,Often,Small,No,Yes,No,Yes,No,No,Don't know,Very difficult,Yes,Maybe,Some of them,Some of them,No,No,Don't know,No,
+2014-11-05 10:08:44,27,Other,United States,OK,No,No,No,Never,Medium,No,No,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,No,No,Some of them,Yes,No,No,Yes,No,
 2014-11-06 11:24:38,56,female,United States,OR,Yes,No,No,Rarely,Small,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Maybe,Maybe,No,No,No,No,Don't know,No,I'm self-employed on contract with small start-up. Covered through spouse's insurance.
 2014-11-16 08:42:35,38,male,United States,AL,No,Yes,Yes,Sometimes,Small,Yes,Yes,Yes,No,No,No,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,No,Don't know,No,
 2014-12-15 00:43:49,40,male,United States,AL,No,Yes,Yes,Sometimes,Small,No,Yes,Yes,Yes,No,No,Yes,Don't know,Maybe,No,Some of them,No,No,No,Yes,No,

@@ -6,9 +6,9 @@ import pandas as pd
 from dash.dependencies import Input, Output
 import altair as alt
 
-from us_map import plot_map
+from src.us_map import plot_map
 
-data_raw = pd.read_csv('../data/processed.csv')
+data_raw = pd.read_csv('data/processed.csv')
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server

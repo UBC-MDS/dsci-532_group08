@@ -6,7 +6,7 @@ import dash_html_components as html
 import pandas as pd
 from dash.dependencies import Input, Output
 
-from src.us_map import plot_map
+from us_map import plot_map
 
 data_raw = pd.read_csv('data/processed.csv')
 

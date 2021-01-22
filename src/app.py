@@ -71,10 +71,11 @@ app.layout = dbc.Container([
                     dbc.Tab(tab_general_overview_content,
                             label="General Overview",
                             tab_id="tab-general-overview"),
-                    dbc.Tab(label="Company Support", tab_id="tab-company-support"),
+                    dbc.Tab(label="Company Support", 
+                            tab_id="tab-company-support"),
                 ],
                 id="card-tabs",
-                active_tab="tab-general-overview"
+                active_tab="tab-general-overview" 
             )
         ])
     ])
@@ -110,19 +111,25 @@ def plot_general_overview(state, company_size, gender, age_range):
         x='count()'
     )
 
-    ge = alt.Chart(data).mark_bar().encode(
-        y='Gender',
+    age = alt.Chart(data).mark_bar().encode(
+        y='Age',
         x='count()'
     )
 
-    return (wi & ge | plot_map(data)).to_html()
+    wp = alt.Chart(data).mark_bar().encode(
+        y='wellness_program',
+        x='count()'
+    )
 
+    return (wi & age | plot_map(data) & wp).to_html()
 
 @app.callback(
     Output('overview-age-range-text', 'children'),
     Input('overview-age-slider', 'value'))
 def update_output(age_range):
     return f'Selected age range: {age_range[0]} - {age_range[1]}'
+
+
 
 
 if __name__ == '__main__':

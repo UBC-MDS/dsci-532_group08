@@ -13,13 +13,13 @@ The Mental Health in Tech Industry reporting app contains two tabs. The landing 
 
 ## Dependencies
 
-altair==4.1.0
-dash==1.18.1
-dash-bootstrap-components==0.11.1
-pandas==1.1.5
-vega_datasets
-plotly==4.14.3
-gunicorn
+- altair==4.1.0
+- dash==1.18.1
+- dash-bootstrap-components==0.11.1
+- pandas==1.1.5
+- vega_datasets
+- plotly==4.14.3
+- gunicorn
 
 
 ## App sketch

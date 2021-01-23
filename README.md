@@ -1,7 +1,7 @@
 # Mental Health in Tech Industry reporting app
 * authors: Mitchie Zhao, Jordon Lau, Kaicheng Tan, Daniel Ortiz
 
-A data science project for DSCI 532 (Data Visualization II); a course in the Master of Data Science program at the University of British Columbia.
+A data science project for DSCI 532 (Data Visualization II); a course in the Master of Data Science program at the University of British Columbia. You can find the reporting app [here](https://dsci532-viz-g8.herokuapp.com/).
 
 ## About
 

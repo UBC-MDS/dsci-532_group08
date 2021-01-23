@@ -31,24 +31,24 @@ The dataset used for our app was originally from a survey conducted by the Open 
 
 We are interested in answering the following questions through our app:
 
-- How common (widespread) mental health issues are?
-- Do mental health issues interfere with work?
-- Do mental health issues originate from work? (or is it pre-existing conditions?)
-- What’s the impact of demographic factors on mental health conditions in the US tech industry? Which demographic group seems to be with higher risks of acquiring mental health conditions?  (drop-down widget: correlation graphs for each factor)
-  - Gender (e.g. female/male/others)
-  - Age groups (e.g. 18-30, 30-40, 50+)
-  - Family mental health history (genetic?)
-- Currently, How well companies do in helping their employees with mental health issues?
+- Severity and interference of mental health conditions 
+  - How common and widespread are mental health conditions?
+  - Do mental health issues interfere with work?
+  - Do mental health issues originate from work? (or is it a pre-existing condition?)
+- Demographic factors that affect mental health conditions 
+  - Which demographic group is more susceptible to risks of acquiring mental health conditions?
+  - Do gender, age, or genetic predispositions have an affect? 
+- Company involvement for mental health conditions
   - Are employees concerned about anonymity when seeking mental health help in their workplace?
-  - How well do companies communicate internally their mental health care options they provide?
-  - How confident are employees on raising mental health concerns to their employers compared to physical health concerns?
-  - What impact does mental health concerns have when interviewing for a new job?
+  - Are companies communicating the mental health care options they provide for employees?
+  - Are employees comfortable with raising mental health concerns to their coworkers or supervisors? 
+  - Are people concerned with raising mental health conditions during interviews? 
+- Mental health prevalence in tech versus other industries
   - Does the company size have an effect when implementing mental health programs for their employees?
-- Do tech company employees have higher mental health conditions relative to other industries?
-  - If so, do they provide more care and benefits (benefits, care_options, wellness_program, seek_help)
-- Is the condition different from state to state?
+  - Do tech company employees have a greater proportion of individuals with mental health conditions relative to other industries?
+- Mental Health differences from state to state
   - Are there any states that employees are more willing to communicate their conditions with other coworkers or supervisors?
-  - Are there any states that mental health conditions are most commonly found in the tech industry? (With the highest ratio of mental health conditions)
+  - Are mental health conditions more prevalent in certain states?
 
 #### Usage Scenario
 Alex is a policymaker working for the government of the United States. He wants to understand if mental health has become a major problem among employees from tech companies. He wants to be able to explore the Mental Health in Tech Survey dataset visually to compare the general situations of mental health issues for people in tech, both geographically and demographically, and find out the most relevant factors that can justify his intention to improve current labor contract policies. 

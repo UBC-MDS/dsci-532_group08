@@ -45,15 +45,13 @@ tab_general_overview_content = dbc.Card(
                 ),
                 dbc.FormText(id='overview-age-range-text')
             ]), md=2, align='baseline'),
-            dbc.Col([
-                dcc.Loading(
-                    id='overview-loading',
-                    type='default',
-                    children=html.Iframe(
-                        id='iframe-general-overview',
-                        style={'border-width': '0', 'width': '100%', 'height': '60vh'})
-                )
-            ])
+            dbc.Col(dcc.Loading(
+                id='overview-loading',
+                type='default',
+                children=html.Iframe(
+                    id='iframe-general-overview',
+                    style={'border-width': '0', 'width': '100%', 'height': '70vh'})
+            ), align='center')
         ])
     ]),
     className='mt-3',

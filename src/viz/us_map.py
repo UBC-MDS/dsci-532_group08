@@ -1,7 +1,6 @@
-from vega_datasets import data
-import pandas as pd
 import altair as alt
-
+import pandas as pd
+from vega_datasets import data
 
 us_state_abbrev = {
     'Alabama': 'AL',
@@ -41,7 +40,7 @@ us_state_abbrev = {
     'New York': 'NY',
     'North Carolina': 'NC',
     'North Dakota': 'ND',
-    'Northern Mariana Islands':'MP',
+    'Northern Mariana Islands': 'MP',
     'Ohio': 'OH',
     'Oklahoma': 'OK',
     'Oregon': 'OR',
@@ -74,7 +73,7 @@ def plot_map(df):
         fill='lightgray',
         stroke='white'
     ).properties(
-        title='US State Capitols',
+        title='Count of respondents by state',
         width=500,
         height=300
     ).project('albersUsa')

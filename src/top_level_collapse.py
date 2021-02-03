@@ -15,9 +15,17 @@ collapse = dbc.Collapse(
     [
         dbc.Card(dbc.CardBody(
             [
-                html.P('There are 2 tabs for the dashboard. The General Overview tab contains summaries across all '
-                       'companies and all respondents, the Company Overview tab contains summaries mainly focus on '
-                       'statistics across companies only.'),
+                html.P('Welcome to the mental health in tech dashboard. This dashboard is created to help identify '
+                       'main factors that associate with mental health conditions, and help the government and '
+                       'organizations understand why supporting mental health is essential.'),
+                html.H5('Tabs and dashboards'),
+                html.P('There are 2 clickable tabs in the app. The dashboard in General Overview tab contains overall '
+                       'summaries across all companies and all respondents, the dashboard in Company Overview tab '
+                       'contains summaries on statistics across companies only.'),
+                html.H5('Interactive components'),
+                html.P('Many plots contains interactive components like tooltips that can reveal more information when '
+                       'you hover your mouse on the figures. '),
+                html.Hr(),
                 html.P('This message can be collapsed/hidden by clicking the Help button.')
             ]
         )),

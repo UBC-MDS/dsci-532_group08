@@ -85,7 +85,11 @@ def plot_map(df):
     )
 
     points = base.mark_circle(fill='#E45756').encode(
-        size=alt.Size('count()', scale=alt.Scale(domain=[0, 150], range=[50, 800]), title='Respondent count')
+        size=alt.Size('count()', scale=alt.Scale(domain=[0, 150], range=[50, 800]), title='Respondent count'),
+        tooltip=[
+            alt.Tooltip('state', title='State'),
+            alt.Tooltip('count()', title='Respondent count')
+        ]
     )
 
     return background + points

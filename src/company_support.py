@@ -33,29 +33,27 @@ tab_company_support_content = dbc.Card(
                 dbc.FormText('Size of the companies the respondents working for'),
                 html.Br(),
                 dbc.Label('Tech Company'),
-                dcc.RadioItems(
+                dbc.RadioItems(
                     id='company-support-tech-company-radioitems',
                     options=[
                         {'label': 'All', 'value': 'All'},
                         {'label': 'Yes', 'value': 'Yes'},
                         {'label': 'No', 'value': 'No'}
                     ],
-                    labelStyle={'display': 'inline-block', 'margin-right': '15px'},
-                    inputStyle={'margin-right': '5px'},
+                    inline=True,
                     value='All'
                 ),
                 dbc.FormText('Is the respondents\' company primarily a tech company or organization?'),
                 html.Br(),
                 dbc.Label('Remote Work'),
-                dcc.RadioItems(
+                dbc.RadioItems(
                     id='company-support-remote-work-radioitems',
                     options=[
                         {'label': 'All', 'value': 'All'},
                         {'label': 'Yes', 'value': 'Yes'},
                         {'label': 'No', 'value': 'No'}
                     ],
-                    labelStyle={'display': 'inline-block', 'margin-right': '15px'},
-                    inputStyle={'margin-right': '5px'},
+                    inline=True,
                     value='All'
                 ),
                 dbc.FormText('Is the respondents\' work remotely (outside of an office) at least 50% of the time?')

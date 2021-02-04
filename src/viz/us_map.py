@@ -73,9 +73,9 @@ def plot_map(df):
         fill='lightgray',
         stroke='white'
     ).properties(
-        title='Count of respondents by state',
-        width=500,
-        height=300
+        title='Respondent distribution',
+        width=850,
+        height=400
     ).project('albersUsa')
 
     df_geo = df.merge(capitals, on='state')
@@ -84,8 +84,8 @@ def plot_map(df):
         latitude='lat:Q',
     )
 
-    points = base.mark_circle(opacity=0.6, fill='red').encode(
-        size=alt.Size('count()', scale=alt.Scale(domain=[0, 150], range=[50, 800]))
+    points = base.mark_circle(fill='#E45756').encode(
+        size=alt.Size('count()', scale=alt.Scale(domain=[0, 150], range=[50, 800]), title='Respondent count')
     )
 
     return background + points

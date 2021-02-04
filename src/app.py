@@ -1,11 +1,15 @@
+import os
+
 import dash_bootstrap_components as dbc
 import dash_html_components as html
 
+from company_support import tab_company_support_content
 from general_overview import tab_general_overview_content
 from shared import app
 from top_level_collapse import collapse, collapse_button
 
-dashboard_logo_url = 'https://image.flaticon.com/icons/png/512/1111/1111512.png'
+# Original link to icon: https://image.flaticon.com/icons/png/512/1111/1111512.png
+dashboard_logo_url = 'https://github.com/UBC-MDS/dsci-532_group08/raw/main/img/dashboard_icon.png'
 server = app.server
 
 app.layout = dbc.Container([
@@ -22,13 +26,11 @@ app.layout = dbc.Container([
                 ),
                 href='https://github.com/UBC-MDS/dsci-532_group08',
             ),
-            dbc.NavbarToggler(id='navbar-toggler'),
-            dbc.Collapse(collapse_button, id='navbar-collapse', navbar=True)
+            dbc.NavbarToggler(),
+            dbc.Collapse(collapse_button, navbar=True)
         ],
         color='light', dark=False,
-        style={
-            'border-radius': '5px'
-        }
+        style={'border-radius': '5px'}
     ),
     html.Br(),
     collapse,
@@ -36,11 +38,8 @@ app.layout = dbc.Container([
         dbc.Col([
             dbc.Tabs(
                 [
-                    dbc.Tab(tab_general_overview_content,
-                            label='General Overview',
-                            tab_id='tab-general-overview'),
-                    dbc.Tab(label='Company Support',
-                            tab_id='tab-company-support'),
+                    dbc.Tab(tab_general_overview_content, label='General Overview', tab_id='tab-general-overview'),
+                    dbc.Tab(tab_company_support_content, label='Company Support', tab_id='tab-company-support')
                 ],
                 id='card-tabs',
                 active_tab='tab-general-overview'
@@ -57,4 +56,4 @@ app.layout = dbc.Container([
 ], fluid=True, style={'border-width': '10'})
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=os.environ.get('IS_DEBUG', 'FALSE').lower() in ("yes", "true", "t", "1"))

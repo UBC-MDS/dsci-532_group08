@@ -40,6 +40,13 @@ collapse = dbc.Collapse(
     [State('dashboard_description', 'is_open')],
 )
 def toggle_collapse(n, is_open):
+    """
+    Simple callback that will toggle the collapse
+
+    :param n: The initial state of n_clicks
+    :param is_open: The initial state of is_open
+    :return: The result state of is_open after it is toggled
+    """
     if n:
         return not is_open
     return is_open

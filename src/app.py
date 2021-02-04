@@ -56,4 +56,4 @@ app.layout = dbc.Container([
 ], fluid=True, style={'border-width': '10'})
 
 if __name__ == '__main__':
-    app.run_server(debug=os.environ.get('IS_DEBUG', 'FALSE').lower() in ("yes", "true", "t", "1"))
+    app.run_server(debug=os.environ.get('IS_DEBUG', 'FALSE').lower() in ('yes', 'true', 't', '1'))

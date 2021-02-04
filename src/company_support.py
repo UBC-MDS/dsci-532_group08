@@ -98,6 +98,8 @@ def plot_general_overview(state, company_size, is_tech, is_remote_work):
     df_melted = data[['benefits', 'wellness_program', 'seek_help', 'anonymity', 'mental_vs_physical']] \
         .melt(var_name="Question",
             value_name="Answer")
+            
+    #replace question names       
     df_melted = df_melted.replace({'benefits': 'Benefits', 'anonymity': 'Anonymity', 
                                 'seek_help': 'Resources', 'wellness_program': 'Wellness program', 
                                 'mental_vs_physical': 'Mental vs physical'})
@@ -112,14 +114,15 @@ def plot_general_overview(state, company_size, is_tech, is_remote_work):
 
     #boxplot
     plot_box = alt.Chart(data).mark_boxplot(size = 50).encode(
-                alt.X("mental_health_consequence", title= " "),
-                alt.Y("Age"),
-                alt.Color("Gender", scale=alt.Scale(scheme='tableau10'), legend=None)
-            ).properties(
-                height=300,
-                width =275
-            ).facet(facet= "Gender", title = "Do employees feel that there might be consequences discussing mental health conditions?")
+                     alt.X("mental_health_consequence", title= " "),
+                     alt.Y("Age"),
+                     alt.Color("Gender", scale=alt.Scale(scheme='tableau10'), legend=None)
+                ).properties(
+                     height=300,
+                     width =275
+                 ).facet(facet= "Gender", title = "Do employees feel that there might be consequences discussing mental health conditions?")
 
+    #heatmap plot
     plot_heat = alt.Chart(data, title=['Discussing with','Coworkers & Supervisors']).mark_rect().encode(
                     x='supervisor',
                     y=alt.Y('coworkers', sort='-y'),
@@ -129,8 +132,8 @@ def plot_general_overview(state, company_size, is_tech, is_remote_work):
 
 
             
-    return (plot_box & (plot_question|plot_heat)).resolve_scale(
-        color ='independent'
+    return (plot_box & (plot_question|plot_heat)
+        ).resolve_scale(color ='independent'
         ).configure_axisX(labelAngle=360
         ).configure_legend(titleFontSize=15,labelFontSize=13, gradientLength=100, gradientThickness=20
         ).configure_title(fontSize=18, anchor='middle'

@@ -62,8 +62,9 @@ us_state_abbrev = {
 }
 
 capitals = pd.read_json(data.us_state_capitals.url)
+capitals['state_full'] = capitals['state']
 capitals['state'] = capitals['state'].map(us_state_abbrev)
-capitals = capitals[['state', 'lon', 'lat']]
+capitals = capitals[['state', 'state_full', 'lon', 'lat']]
 
 states = alt.topo_feature(data.us_10m.url, 'states')
 
@@ -85,7 +86,12 @@ def plot_map(df):
     )
 
     points = base.mark_circle(fill='#E45756').encode(
-        size=alt.Size('count()', scale=alt.Scale(domain=[0, 150], range=[50, 800]), title='Respondent count')
+        size=alt.Size('count()', scale=alt.Scale(domain=[0, 150], range=[50, 800]), title='Respondent count'),
+        tooltip=[
+            alt.Tooltip('state_full:N', title='State full name'),
+            alt.Tooltip('state', title='State abbreviation'),
+            alt.Tooltip('count()', title='Respondent count')
+        ]
     )
 
     return background + points

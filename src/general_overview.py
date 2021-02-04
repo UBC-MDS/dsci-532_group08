@@ -34,7 +34,7 @@ tab_general_overview_content = dbc.Card(
                 dbc.FormText('Size of the companies the respondents working for'),
                 html.Br(),
                 dbc.Label('Gender'),
-                dcc.RadioItems(
+                dbc.RadioItems(
                     id='overview-gender-radioitems',
                     options=[
                         {'label': 'All', 'value': 'All'},
@@ -42,8 +42,6 @@ tab_general_overview_content = dbc.Card(
                         {'label': 'Male', 'value': 'male'},
                         {'label': 'Other', 'value': 'Other'}
                     ],
-                    labelStyle={'display': 'inline-block', 'margin-right': '10px'},
-                    inputStyle={'margin-right': '5px'},
                     value='All'
                 ),
                 dbc.FormText('Gender of the respondents'),
@@ -101,7 +99,11 @@ def plot_general_overview(state, company_size, gender, age_range):
     wi = alt.Chart(data).mark_bar().encode(
         y=alt.Y('work_interfere', title='Work interference frequency'),
         x=alt.X('count()', title='Respondent count'),
-        color='Gender'
+        color='Gender',
+        tooltip=[
+            alt.Tooltip('Gender'),
+            alt.Tooltip('count()', title='Respondent count')
+        ]
     ).properties(
         title='Does mental health condition interferes work?',
         height=200
@@ -110,7 +112,11 @@ def plot_general_overview(state, company_size, gender, age_range):
     age = alt.Chart(data).mark_bar().encode(
         y=alt.Y('Age', title='Age', bin=alt.Bin(maxbins=20)),
         x=alt.X('count()', title='Respondent count'),
-        color='Gender'
+        color='Gender',
+        tooltip=[
+            alt.Tooltip('Gender'),
+            alt.Tooltip('count()', title='Respondent count')
+        ]
     ).properties(
         title='Age distribution',
         height=200

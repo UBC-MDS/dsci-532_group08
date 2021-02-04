@@ -20,13 +20,13 @@ collapse = dbc.Collapse(
                        'organizations understand why supporting mental health is essential.'),
                 html.H5('Tabs and dashboards'),
                 html.P('There are 2 clickable tabs in the app. The dashboard in General Overview tab contains overall '
-                       'summaries across all companies and all respondents, the dashboard in Company Overview tab '
+                       'summaries across all companies and all respondents, the dashboard in Company Support tab '
                        'contains summaries on statistics across companies only.'),
                 html.H5('Interactive components'),
                 html.P('Many plots contains interactive components like tooltips that can reveal more information when '
                        'you hover your mouse on the figures. '),
                 html.Hr(),
-                html.P('This message can be collapsed/hidden by clicking the Help button.')
+                html.P('This message can be collapsed/hidden by clicking the Help button at the top right corner.')
             ]
         )),
         html.Br()

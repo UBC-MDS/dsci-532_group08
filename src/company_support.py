@@ -61,18 +61,59 @@ tab_company_support_content = dbc.Card(
             dbc.Col(dcc.Loading(
                 id='company-support-loading',
                 type='default',
-                children=html.Iframe(
-                    id='iframe-company-support',
-                    style={'border-width': '0', 'width': '100%', 'height': '70vh'})
+                children=dbc.Col([
+                    html.Iframe(id='iframe-company-support-1',
+                                style={'border-width': '0', 'width': '100%', 'height': '48vh'}),
+                    dbc.Col([
+                        html.Hr(),
+                        html.P('Plots below are related to specific questions in the survey. Full description of the '
+                               'question labels is listed in the following table:'),
+                        dbc.Table([
+                            html.Thead(html.Tr([html.Th('Label'), html.Th('Full Description')])),
+                            html.Tr([html.Td('Anonymity'), html.Td('Is your anonymity protected if you choose to take '
+                                                                   'advantage of mental health or substance abuse '
+                                                                   'treatment resources?')]),
+                            html.Tr(
+                                [html.Td('Benefits'), html.Td('Does your employer provide mental health benefits?')]),
+                            html.Tr([html.Td('Mental vs physical'), html.Td('Do you feel that your employer takes '
+                                                                            'mental health as seriously as physical '
+                                                                            'health?')]),
+                            html.Tr([html.Td('Resources'), html.Td(
+                                'Does your employer provide resources to learn more about mental health issues and how '
+                                'to seek help?')]),
+                            html.Tr([html.Td('Wellness program'), html.Td(
+                                'Has your employer ever discussed mental health as part of an employee wellness '
+                                'program?')]),
+                            html.Tr([html.Td('Coworkers'), html.Td('Would you be willing to discuss a mental health '
+                                                                   'issue with your coworkers?')]),
+                            html.Tr([html.Td('Supervisors'), html.Td('Would you be willing to discuss a mental health '
+                                                                     'issue with your direct supervisor(s)?')])
+                        ], bordered=False, dark=False, responsive=True, striped=True, size='sm')
+                    ],
+                        md=12, align='center'),
+                    html.Br(),
+                    html.Iframe(id='iframe-company-support-2',
+                                style={'border-width': '0', 'width': '100%', 'height': '40vh'})
+                ], md=12, align='center')
             ), align='center')
         ])
     ]),
     className='mt-3')
 
 
+def style_plot(plot):
+    return plot.resolve_scale(color='independent') \
+        .configure_axisX(labelAngle=360) \
+        .configure_legend(titleFontSize=15, labelFontSize=13, gradientLength=100, gradientThickness=20) \
+        .configure_title(fontSize=18, anchor='middle').configure_axis(labelFontSize=13, titleFontSize=13)
+
+
 # Set up callbacks/backend
 @app.callback(
-    Output('iframe-company-support', 'srcDoc'),
+    [
+        Output('iframe-company-support-1', 'srcDoc'),
+        Output('iframe-company-support-2', 'srcDoc')
+    ],
     Input('company-support-state-dropdown', 'value'),
     Input('company-support-company-size-dropdown', 'value'),
     Input('company-support-tech-company-radioitems', 'value'),
@@ -92,48 +133,41 @@ def plot_general_overview(state, company_size, is_tech, is_remote_work):
     if is_remote_work.lower() != 'all':
         data = data.query('remote_work == @is_remote_work')
 
-    #melt dataframe for questions plot
+    # melt dataframe for questions plot
     df_melted = data[['benefits', 'wellness_program', 'seek_help', 'anonymity', 'mental_vs_physical']] \
-        .melt(var_name="Question",
-            value_name="Answer")
-            
-    #replace question names       
-    df_melted = df_melted.replace({'benefits': 'Benefits', 'anonymity': 'Anonymity', 
-                                'seek_help': 'Resources', 'wellness_program': 'Wellness program', 
-                                'mental_vs_physical': 'Mental vs physical'})
+        .melt(var_name='Question',
+              value_name='Answer')
 
-    #question plot
-    plot_question = alt.Chart(df_melted, title = "Survey Questions").mark_bar().encode(
-                    x=alt.X('count()', stack="normalize", axis=alt.Axis(format='%')),
-                    y=alt.Y('Question'),
-                    color=alt.Color('Answer', scale=alt.Scale(scheme='blues')),
-                    tooltip=[alt.Tooltip('count()', title='Respondent count')]
-                ).properties(height=200, width = 425)
+    # replace question names
+    df_melted = df_melted.replace({'benefits': 'Benefits', 'anonymity': 'Anonymity',
+                                   'seek_help': 'Resources', 'wellness_program': 'Wellness program',
+                                   'mental_vs_physical': 'Mental vs physical'})
 
-    #boxplot
-    plot_box = alt.Chart(data).mark_boxplot(size = 50).encode(
-                     alt.X("mental_health_consequence", title= " "),
-                     alt.Y("Age"),
-                     alt.Color("Gender", scale=alt.Scale(scheme='tableau10'), legend=None)
-                ).properties(
-                     height=300,
-                     width =275
-                 ).facet(facet= "Gender", title = "Do employees feel that there might be consequences discussing mental health conditions?")
+    # question plot
+    plot_question = alt.Chart(df_melted, title='Survey Questions').mark_bar().encode(
+        x=alt.X('count()', stack='normalize', axis=alt.Axis(format='%')),
+        y=alt.Y('Question'),
+        color=alt.Color('Answer', scale=alt.Scale(scheme='blues')),
+        tooltip=[alt.Tooltip('count()', title='Respondent count')]
+    ).properties(height=250, width=425)
 
-    #heatmap plot
-    plot_heat = alt.Chart(data, title=['Discussing with','Coworkers & Supervisors']).mark_rect().encode(
-                    x='supervisor',
-                    y=alt.Y('coworkers', sort='-y'),
-                    color=alt.Color('count()', legend=alt.Legend(title="Count"), scale=alt.Scale(scheme='greenblue')),
-                    tooltip=[alt.Tooltip('count()', title='Respondent count')]
-                ).properties(height=200, width= 220)
+    # boxplot
+    plot_box = alt.Chart(data).mark_boxplot(size=50).encode(
+        alt.X('mental_health_consequence', title=' '),
+        alt.Y('Age'),
+        alt.Color('Gender', scale=alt.Scale(scheme='tableau10'), legend=None)
+    ).properties(
+        height=300,
+        width=275
+    ).facet(facet='Gender',
+            title='Do employees feel that there might be consequences discussing mental health conditions?')
 
+    # heatmap plot
+    plot_heat = alt.Chart(data, title=['Discussing with', 'Coworkers & Supervisors']).mark_rect().encode(
+        x=alt.X('supervisor', title='Supervisors'),
+        y=alt.Y('coworkers', sort='-y', title='Coworkers'),
+        color=alt.Color('count()', legend=alt.Legend(title='Count'), scale=alt.Scale(scheme='greenblue')),
+        tooltip=[alt.Tooltip('count()', title='Respondent count')]
+    ).properties(height=250, width=220)
 
-            
-    return (plot_box & (plot_question|plot_heat)
-        ).resolve_scale(color ='independent'
-        ).configure_axisX(labelAngle=360
-        ).configure_legend(titleFontSize=15,labelFontSize=13, gradientLength=100, gradientThickness=20
-        ).configure_title(fontSize=18, anchor='middle'
-        ).configure_axis(labelFontSize=13,titleFontSize=13
-        ).to_html()
+    return [style_plot(plot_box).to_html(), style_plot(plot_question | plot_heat).to_html()]

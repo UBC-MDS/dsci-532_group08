@@ -102,6 +102,12 @@ tab_company_support_content = dbc.Card(
 
 
 def style_plot(plot):
+    """
+    Apply consistent styling for plots in the company support dashboard
+
+    :param plot: The Altair plot object which should have styling applied
+    :return: The Altair plot object with the styling applied
+    """
     return plot.resolve_scale(color='independent') \
         .configure_axisX(labelAngle=360) \
         .configure_legend(titleFontSize=15, labelFontSize=13, gradientLength=100, gradientThickness=20) \
@@ -119,6 +125,16 @@ def style_plot(plot):
     Input('company-support-tech-company-radioitems', 'value'),
     Input('company-support-remote-work-radioitems', 'value'))
 def plot_general_overview(state, company_size, is_tech, is_remote_work):
+    """
+    Callback function to be responsible for refreshing the dashboard. This function will read in the latest parameters,
+    apply appropriate filters and generate plots
+
+    :param state: States in the US that should be included in the result
+    :param company_size: Company size that should be included in the result
+    :param is_tech: Are the companies traditional tech companies?
+    :param is_remote_work: Are the companies allow remote work?
+    :return: The rendered html of the dashboard
+    """
     data = data_raw
 
     if len(state) != 0:

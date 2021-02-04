@@ -80,6 +80,16 @@ tab_general_overview_content = dbc.Card(
     Input('overview-gender-radioitems', 'value'),
     Input('overview-age-slider', 'value'))
 def plot_general_overview(state, company_size, gender, age_range):
+    """
+    Callback function to be responsible for refreshing the dashboard. This function will read in the latest parameters,
+    apply appropriate filters and generate plots
+
+    :param state: States in the US that should be included in the result
+    :param company_size: Company size that should be included in the result
+    :param gender: Genders that should be included in the result
+    :param age_range: Range of age that should be included in the result
+    :return: The rendered html of the dashboard
+    """
     data = data_raw
 
     if len(state) != 0:

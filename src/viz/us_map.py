@@ -70,6 +70,12 @@ states = alt.topo_feature(data.us_10m.url, 'states')
 
 
 def plot_map(df):
+    """
+    Plot the map according to the data frame
+
+    :param df: The data frame that should be used to make the map
+    :return: The map object made with the data frame
+    """
     background = alt.Chart(states).mark_geoshape(
         fill='lightgray',
         stroke='white'

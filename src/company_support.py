@@ -30,7 +30,7 @@ tab_company_support_content = dbc.Card(
                     value=[],
                     multi=True,
                     options=[{'label': col, 'value': col} for col in company_size_choice]),
-                dbc.FormText('Size of the companies the respondents working for'),
+                dbc.FormText('Size of the companies the respondents working for: "Small" (0 - 100 employees), "Medium" (100 - 1000 employees), and "Large" (more than 1000 employees)'),
                 html.Br(),
                 dbc.Label('Tech Company'),
                 dbc.RadioItems(

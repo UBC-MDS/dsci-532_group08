@@ -56,7 +56,7 @@ tab_company_support_content = dbc.Card(
                     inline=True,
                     value='All'
                 ),
-                dbc.FormText('Is the respondents\' work remotely (outside of an office) at least 50% of the time?')
+                dbc.FormText('Is the respondentsç\' work remotely (outside of an office) at least 50% of the time?')
             ]), md=2, align='baseline'),
             dbc.Col(dcc.Loading(
                 id='company-support-loading',
@@ -64,36 +64,38 @@ tab_company_support_content = dbc.Card(
                 children=dbc.Col([
                     html.Iframe(id='iframe-company-support-1',
                                 style={'border-width': '0', 'width': '100%', 'height': '48vh'}),
+                    html.Iframe(id='iframe-company-support-2',
+                                style={'border-width': '0', 'width': '100%', 'height': '40vh'}),
                     dbc.Col([
                         html.Hr(),
-                        html.P('Plots below are related to specific questions in the survey. Full description of the '
-                               'question labels is listed in the following table:'),
-                        dbc.Table([
-                            html.Thead(html.Tr([html.Th('Label'), html.Th('Full Description')])),
-                            html.Tr([html.Td('Anonymity'), html.Td('Is your anonymity protected if you choose to take '
-                                                                   'advantage of mental health or substance abuse '
-                                                                   'treatment resources?')]),
-                            html.Tr(
-                                [html.Td('Benefits'), html.Td('Does your employer provide mental health benefits?')]),
-                            html.Tr([html.Td('Mental vs physical'), html.Td('Do you feel that your employer takes '
-                                                                            'mental health as seriously as physical '
-                                                                            'health?')]),
-                            html.Tr([html.Td('Resources'), html.Td(
-                                'Does your employer provide resources to learn more about mental health issues and how '
-                                'to seek help?')]),
-                            html.Tr([html.Td('Wellness program'), html.Td(
-                                'Has your employer ever discussed mental health as part of an employee wellness '
-                                'program?')]),
-                            html.Tr([html.Td('Coworkers'), html.Td('Would you be willing to discuss a mental health '
-                                                                   'issue with your coworkers?')]),
-                            html.Tr([html.Td('Supervisors'), html.Td('Would you be willing to discuss a mental health '
-                                                                     'issue with your direct supervisor(s)?')])
-                        ], bordered=False, dark=False, responsive=True, striped=True, size='sm')
-                    ],
+                        dbc.Card([
+                        dbc.CardHeader('Full description of question labels:'),
+                        dbc.CardBody(
+                            dbc.Table([
+                                html.Thead(html.Tr([html.Th('Label'), html.Th('Full Description')])),
+                                html.Tr([html.Td('Anonymity'), html.Td('Is your anonymity protected if you choose to take '
+                                                                    'advantage of mental health or substance abuse '
+                                                                    'treatment resources?')]),
+                                html.Tr(
+                                    [html.Td('Benefits'), html.Td('Does your employer provide mental health benefits?')]),
+                                html.Tr([html.Td('Mental vs physical'), html.Td('Do you feel that your employer takes '
+                                                                                'mental health as seriously as physical '
+                                                                                'health?')]),
+                                html.Tr([html.Td('Resources'), html.Td(
+                                    'Does your employer provide resources to learn more about mental health issues and how '
+                                    'to seek help?')]),
+                                html.Tr([html.Td('Wellness program'), html.Td(
+                                    'Has your employer ever discussed mental health as part of an employee wellness '
+                                    'program?')]),
+                                html.Tr([html.Td('Coworkers'), html.Td('Would you be willing to discuss a mental health '
+                                                                    'issue with your coworkers?')]),
+                                html.Tr([html.Td('Supervisors'), html.Td('Would you be willing to discuss a mental health '
+                                                                        'issue with your direct supervisor(s)?')])
+                            ], bordered=False, dark=False, responsive=True, striped=True, size='sm'),
+                            style={'width':'100%'}
+                        )])],
                         md=12, align='center'),
-                    html.Br(),
-                    html.Iframe(id='iframe-company-support-2',
-                                style={'border-width': '0', 'width': '100%', 'height': '40vh'})
+                    
                 ], md=12, align='center')
             ), align='center')
         ])
@@ -160,12 +162,19 @@ def plot_general_overview(state, company_size, is_tech, is_remote_work):
                                    'mental_vs_physical': 'Mental vs physical'})
 
     # question plot
-    plot_question = alt.Chart(df_melted, title='Survey Questions').mark_bar().encode(
+    plot_question = alt.Chart(df_melted, title='Survey Questions (refer to detailed questions below)').mark_bar().encode(
         x=alt.X('count()', stack='normalize', axis=alt.Axis(format='%')),
         y=alt.Y('Question'),
         color=alt.Color('Answer', scale=alt.Scale(scheme='blues')),
         tooltip=[alt.Tooltip('count()', title='Respondent count')]
-    ).properties(height=250, width=425)
+    ).properties(height=250, width=425, 
+                title={
+                "text": ["Survey Questions"], 
+                "subtitle": ["(refer to detailed questions below)"],
+                "color": "Black",
+                "subtitleColor": "Grey"}
+                )
+
 
     # boxplot
     plot_box = alt.Chart(data).mark_boxplot(size=50).encode(
@@ -174,7 +183,7 @@ def plot_general_overview(state, company_size, is_tech, is_remote_work):
         alt.Color('Gender', scale=alt.Scale(scheme='tableau10'), legend=None)
     ).properties(
         height=300,
-        width=275
+        width=305
     ).facet(facet='Gender',
             title='Do employees feel that there might be consequences discussing mental health conditions?')
 

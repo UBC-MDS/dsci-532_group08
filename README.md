@@ -9,7 +9,7 @@ Alex is a policy maker working for the government of the United States. He wants
 
 ## App description
 
-The Mental Health in Tech Industry dashboard contains two tabs. Three graphs under the “General Overview” tab: a geographical map of the USA, a histogram for age distribution, and a bar chart for interference with work. There are also three plots under the “Company Support” tab: a boxplot for mental health consequences, a normalized bar chart for company support information, and a heatmap for discussion between coworkers and supervisors. Filtering options include a slider for age range selection, drop-down menus for state and company size, and options for filtering gender, tech company and remote work.
+The Mental Health in Tech Industry dashboard contains two tabs. The first "General Overview" tab is intended to give the user a broad glance at the prevalence of mental health conditions in the Tech sector. Users can analyze using the geographical map, age distribution histogram and a bar chart indicating if the condition interferes with their work. The second tab "Company Support" takes a deeper dive into tech worker perspectives' of their company environment and culture towards dealing with mental health conditions. There are three plots under this tab: a boxplot for mental health consequences, a normalized bar chart for company support information, and a heatmap for discussion between coworkers and supervisors. Filtering options include a slider for age range selection, drop-down menus for state and company size, and options for filtering gender, tech company and remote work.
 
 ## Dependencies
 
@@ -23,6 +23,6 @@ The Mental Health in Tech Industry dashboard contains two tabs. Three graphs und
 
 
 ## App sketch
-![](img/dashboard_sketch1.png)
-![](img/dashboard_sketch2.png)
+![](img/dashboard_screenshot2.png)
+![](img/dashboard_screenshot1.png)
 

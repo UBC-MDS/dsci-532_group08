@@ -43,7 +43,7 @@ tab_company_support_content = dbc.Card(
                     inline=True,
                     value='All'
                 ),
-                dbc.FormText('Is the respondents\' company primarily a tech company or organization?'),
+                dbc.FormText('Are the respondents\' companies primarily tech companies or organizations?'),
                 html.Br(),
                 dbc.Label('Remote Work'),
                 dbc.RadioItems(
@@ -56,7 +56,7 @@ tab_company_support_content = dbc.Card(
                     inline=True,
                     value='All'
                 ),
-                dbc.FormText('Is the respondents\' work remotely (outside of an office) at least 50% of the time?')
+                dbc.FormText('Are the respondents\' work remotely (outside of an office) at least 50% of the time?')
             ]), md=2, align='baseline'),
             dbc.Col(dcc.Loading(
                 id='company-support-loading',
@@ -93,7 +93,6 @@ tab_company_support_content = dbc.Card(
                             style={'width':'100%'}
                         )])],
                         md=12, align='center'),
-                    
                 ], md=12, align='center')
             ), align='center')
         ])

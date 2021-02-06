@@ -62,10 +62,8 @@ tab_company_support_content = dbc.Card(
                 id='company-support-loading',
                 type='default',
                 children=dbc.Col([
-                    html.Iframe(id='iframe-company-support-1',
-                                style={'border-width': '0', 'width': '100%', 'height': '48vh'}),
-                    html.Iframe(id='iframe-company-support-2',
-                                style={'border-width': '0', 'width': '100%', 'height': '40vh'}),
+                    html.Iframe(id='iframe-company-support',
+                                style={'border-width': '0', 'width': '100%', 'height': '90vh'}),
                     dbc.Col([
                         html.Hr(),
                         dbc.Card([
@@ -103,25 +101,9 @@ tab_company_support_content = dbc.Card(
     className='mt-3')
 
 
-def style_plot(plot):
-    """
-    Apply consistent styling for plots in the company support dashboard
-
-    :param plot: The Altair plot object which should have styling applied
-    :return: The Altair plot object with the styling applied
-    """
-    return plot.resolve_scale(color='independent') \
-        .configure_axisX(labelAngle=360) \
-        .configure_legend(titleFontSize=15, labelFontSize=13, gradientLength=100, gradientThickness=20) \
-        .configure_title(fontSize=18, anchor='middle').configure_axis(labelFontSize=13, titleFontSize=13)
-
-
 # Set up callbacks/backend
 @app.callback(
-    [
-        Output('iframe-company-support-1', 'srcDoc'),
-        Output('iframe-company-support-2', 'srcDoc')
-    ],
+    Output('iframe-company-support', 'srcDoc'),
     Input('company-support-state-dropdown', 'value'),
     Input('company-support-company-size-dropdown', 'value'),
     Input('company-support-tech-company-radioitems', 'value'),
@@ -175,7 +157,6 @@ def plot_general_overview(state, company_size, is_tech, is_remote_work):
                 "subtitleColor": "Grey"}
                 )
 
-
     # boxplot
     plot_box = alt.Chart(data).mark_boxplot(size=50).encode(
         alt.X('mental_health_consequence', title=' '),
@@ -195,4 +176,10 @@ def plot_general_overview(state, company_size, is_tech, is_remote_work):
         tooltip=[alt.Tooltip('count()', title='Respondent count')]
     ).properties(height=250, width=220)
 
-    return [style_plot(plot_box).to_html(), style_plot(plot_question | plot_heat).to_html()]
+    return (plot_box & (plot_question|plot_heat)) \
+        .resolve_scale(color ='independent') \
+        .configure_axisX(labelAngle=360) \
+        .configure_legend(titleFontSize=15,labelFontSize=13, gradientLength=100, gradientThickness=20)\
+        .configure_title(fontSize=18, anchor='middle') \
+        .configure_axis(labelFontSize=13,titleFontSize=13) \
+        .to_html()

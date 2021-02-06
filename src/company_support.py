@@ -56,7 +56,7 @@ tab_company_support_content = dbc.Card(
                     inline=True,
                     value='All'
                 ),
-                dbc.FormText('Is the respondentsç\' work remotely (outside of an office) at least 50% of the time?')
+                dbc.FormText('Is the respondents\' work remotely (outside of an office) at least 50% of the time?')
             ]), md=2, align='baseline'),
             dbc.Col(dcc.Loading(
                 id='company-support-loading',

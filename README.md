@@ -26,3 +26,5 @@ The Mental Health in Tech Industry dashboard contains two tabs. The first "Gener
 ![](img/dashboard_screenshot2.png)
 ![](img/dashboard_screenshot1.png)
 
+## Screenshot
+![](img/dashboard-demo.gif)
